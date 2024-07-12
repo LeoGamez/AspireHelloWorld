@@ -1,0 +1,28 @@
+﻿@page "/"
+@using HelloWorldApire.Web.Services
+@attribute [StreamRendering(true)]
+@inject IHelloWorldClient HelloWorldClient;
+<PageTitle>Home</PageTitle>
+
+<h1>Hello, world!</h1>
+
+
+<div>
+    <p>
+        <b> Message From Api:</b>
+        @message
+    </p>
+</div>
+
+@code {
+    private string message = "";
+    protected async override Task OnInitializedAsync()
+    {
+        await GetHelloWorld();
+    }
+
+    public async Task GetHelloWorld()
+    {
+        message = await HelloWorldClient.GetHelloWorld();
+    }
+}
