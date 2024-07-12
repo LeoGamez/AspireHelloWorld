@@ -21,6 +21,9 @@ jobs:
       with:
         dotnet-version: 8.0.x
     - name: Restore dependencies
-      run: dotnet restore "/src/HelloWorldApire/HelloWorldApire.sln"
+      run: dotnet restore "src/HelloWorldApire/HelloWorldApire.sln"
     - name: Build
-      run: dotnet build   "/src/HelloWorldApire/HelloWorldApire.sln"
+      run: dotnet build   "src/HelloWorldApire/HelloWorldApire.sln"
+    - name: Publish
+      run: dotnet publish   "src/HelloWorldApire/HelloWorldApire.sln"
+    
