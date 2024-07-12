@@ -1,0 +1,18 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/src/HelloWorldApire/.vs/HelloWorldApire
+/src/HelloWorldApire/HelloWorldApire.ApiService/bin/Debug/net8.0
+/src/HelloWorldApire/HelloWorldApire.ApiService/obj/Debug/net8.0
+/src/HelloWorldApire/HelloWorldApire.ApiService/obj
+/src/HelloWorldApire/HelloWorldApire.ApiService/Properties
+/src/HelloWorldApire/HelloWorldApire.AppHost/bin/Debug/net8.0
+/src/HelloWorldApire/HelloWorldApire.AppHost/obj
+/src/HelloWorldApire/HelloWorldApire.AppHost/obj/Debug/net8.0/Aspire/references/HelloWorldApire_ApiService.ProjectMetadata.g.cs
+/src/HelloWorldApire/HelloWorldApire.ServiceDefaults/bin/Debug/net8.0
+/src/HelloWorldApire/HelloWorldApire.ServiceDefaults/obj
+/src/HelloWorldApire/HelloWorldApire.Tests/bin/Debug/net8.0
+/src/HelloWorldApire/HelloWorldApire.Tests/obj
+/src/HelloWorldApire/HelloWorldApire.Web/bin/Debug/net8.0
+/src/HelloWorldApire/HelloWorldApire.Web/obj
